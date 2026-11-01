@@ -9,7 +9,7 @@ def build():
     out=ROOT.parent/'artifacts';out.mkdir(exist_ok=True)
     results=[]
     for platform,scripts in [('windows',['install.cmd','install.ps1','install-in-codex.url']),('macos',['install.command','install.sh'])]:
-        prefix=f'codex-yier-bubu-seagull-pet-v1.0.0-{platform}'
+        prefix=f'codex-yier-bubu-seagull-pet-v1.0.1-{platform}'
         dest=out/(prefix+'.zip')
         with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED) as z:
             for name in COMMON+scripts:
