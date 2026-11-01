@@ -49,7 +49,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -CodexHome "D:
 
 9 组动作：待机、向右移动、向左移动、招手、小跳、失败反应、等待回应、双电脑工作、查看成果。
 
-- [九组动作预览视频](docs/all-states.gif)
+- [九组动作预览](docs/all-states.gif)
 - [小跳预览](docs/jumping.gif)
 - [16 个注视方向](docs/look-directions.gif)
 
@@ -104,3 +104,4 @@ python tools/build-release.py
 ## 来源与许可
 
 角色原作者为 **黄小B**。本项目的宠物动画由 AI 辅助生成并整理。代码采用 [MIT 许可](LICENSE)，角色与美术素材范围另见 [ASSET-NOTICE.md](ASSET-NOTICE.md)；参考来源见 [CREDITS.md](CREDITS.md)。
+
