@@ -10,14 +10,16 @@
 
 ## 下载与安装
 
+**v1.0.2：桌宠整体等比例放大约 6%，造型、动作和配饰保持不变。**
+
 两个系统使用同一套修正版笑眼动画。布布的脚已修为与身体一致的棕色。待机为睁眼与眯眼笑交替，小跳腾空时两只熊一起眯眼笑。
 
 ### Windows 安装
 
-**[下载 Windows 安装包](https://github.com/Touyuanyuan/codex-yier-bubu-seagull-pet/releases/download/v1.0.1/codex-yier-bubu-seagull-pet-v1.0.1-windows.zip)** · [版本发布页](https://github.com/Touyuanyuan/codex-yier-bubu-seagull-pet/releases/tag/v1.0.1)
+**[下载 Windows 安装包](https://github.com/Touyuanyuan/codex-yier-bubu-seagull-pet/releases/download/v1.0.2/codex-yier-bubu-seagull-pet-v1.0.2-windows.zip)** · [版本发布页](https://github.com/Touyuanyuan/codex-yier-bubu-seagull-pet/releases/tag/v1.0.2)
 
 1. 确认已安装 Codex，设置里能看到「Mini 与虚拟宠物」。
-2. 下载 `codex-yier-bubu-seagull-pet-v1.0.1-windows.zip`，选择「全部解压」。
+2. 下载 `codex-yier-bubu-seagull-pet-v1.0.2-windows.zip`，选择「全部解压」。
 3. 打开解压后的文件夹，双击 **`install.cmd`**，等待安装完成提示。
 4. 回到 Codex：**设置 → Mini 与虚拟宠物 → 点击「创建虚拟宠物」左侧的小刷新图标 ↻ → 选择「牵手海鸥一二布布」**。
 
@@ -33,7 +35,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -CodexHome "D:
 
 ### Mac 安装
 
-**[下载 Mac 安装包](https://github.com/Touyuanyuan/codex-yier-bubu-seagull-pet/releases/download/v1.0.1/codex-yier-bubu-seagull-pet-v1.0.1-macos.zip)** · [详细安装说明](docs/INSTALL-MACOS.md)
+**[下载 Mac 安装包](https://github.com/Touyuanyuan/codex-yier-bubu-seagull-pet/releases/download/v1.0.2/codex-yier-bubu-seagull-pet-v1.0.2-macos.zip)** · [详细安装说明](docs/INSTALL-MACOS.md)
 
 1. 下载 Mac ZIP，解压后打开文件夹。
 2. 双击 **`install.command`**，等待「牵手海鸥一二布布安装完成」。
@@ -64,7 +66,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -CodexHome "D:
 
 ## 在线安装入口
 
-下载包中的 `install-in-codex.url` 使用 `codex://pets/install` 协议，指向本仓库 `v1.0.1` 标签下的 HTTPS 图集。也可查看 `install-link.txt`。
+下载包中的 `install-in-codex.url` 使用 `codex://pets/install` 协议，指向本仓库 `v1.0.2` 标签下的 HTTPS 图集。也可查看 `install-link.txt`。
 
 该入口需要客户端支持此协议，并可能要求确认打开 Codex、确认安装。若入口无法使用，按上面的 Windows 或 Mac 离线安装步骤操作。
 
